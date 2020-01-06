@@ -28,7 +28,7 @@ public class JFRame extends JFrame implements ActionListener {
         JButton jButton2 = new TesSwing("选择目录",jLabelout,null);
         jButton2.setBounds(200,88,100,20);
         c.add(jButton2);
-        JLabel jLabelCount = new JLabel("1");
+        JLabel jLabelCount = new JLabel();
 
         jLabelCount.setBounds(111,233,100,20);
         c.add(jLabelCount);//进度条
